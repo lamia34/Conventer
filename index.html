@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <!-- === CSS links ==== -->
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cookie&display=swap">
+    <!-- Font Awsesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <img src="./Asset 1@3x 1.svg" alt="">
+        <ul>
+            <li>БАНК</li>
+            <li>БИЗНЕС</li>
+            <li>ИНВЕСТИЦИИ</li>
+            <li>СТРАХОВАНИЕ</li>
+            <li>МОБАЙЛ</li>
+            <li>ПУТЕШЕСТВИЯ</li>
+            <li>РАЗВЛЕЧЕНИЯ</li>
+        </ul>
+        <button class="exit">ВОЙТИ</button>
+    </header>
+
+    <h1 class="head">Конвертер валют онлайн</h1>
+
+   <section id="converter">
+    <div class="container-conventer">
+        <div class="box">
+            <div class="left">
+                <p>У меня есть</p>
+                <div class="box-heading">
+                    <button value="RUB" class="btn btnRUB col-3 active ">RUB</button>
+                    <button value="USD" class="btn btnUSD col-3">USD</button>
+                    <button value="EUR" class="btn btnEUR col-3">EUR</button>
+                    <button value="GBP" class="btn btnGBP col-3 ">GBP</button>
+                </div>
+                <div class="box-content">
+                    <input class="mebleg" type="text">
+                    <p class="rate-info-left">1 RUB = 0.0135 USD</p>
+                </div>
+            </div>
+            <div class="right">
+                <p>Хочу приобрести</p>
+                <div class="box-heading">
+                    <button value="RUB" class="btn btnRUB">RUB</button>
+                    <button value="USD" class="btn btnUSD active">USD</button>
+                    <button value="EUR" class="btn btnEUR">EUR</button>
+                    <button value="GBP" class="btn btnGBP">GBP</button>
+                </div>
+                <div class="box-content">
+                    <input class="result" type="text" >
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+   </section>
+
+
+   <script src="app.js"></script>
+</body>
+</html>
